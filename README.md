@@ -13,3 +13,10 @@ script as `root`
 The script will install the keyring onto the
 `/usr/share/pacman/keyrings/` directory.
 It also suggests users to populate the new keyring.
+
+## Trusted developers
+
+List of trusted keys can be found under the `thelinux-trusted` file.
+In that file, the fingerprints are compressed by removing all spaces.
+
+* Ky-Anh Huynh: `1BD3 A113 475B 8735 D34E  9CC1 B477 86AF 503C DEA5`
