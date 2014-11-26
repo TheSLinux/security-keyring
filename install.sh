@@ -27,4 +27,8 @@ grep -q "Arch Linux" /etc/issue \
 
 cp -iv theslinux.gpg theslinux-trusted "$_D_KEYRING"
 
-pacman-key --populate theslinux
+echo "Please invoke the following command to populate your new keyring"
+echo
+echo "  pacman-key --populate theslinux"
+echo
+echo "(This command should be executed under 'root' account.)"
