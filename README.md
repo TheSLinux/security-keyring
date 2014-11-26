@@ -8,7 +8,7 @@ developers of TheSLinux.
 To install the keyring on ArchLinux system, please use `install.sh`
 script as `root`
 
-  $ sudo ./install.sh
+    $ sudo ./install.sh
 
 The script will install the keyring onto the
 `/usr/share/pacman/keyrings/` directory.
