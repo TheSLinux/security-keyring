@@ -5,7 +5,7 @@
 # Date   : 2014 Nov 26
 # License: MIT
 
-_D_KEYRING="/usr/share/pacman/keyrings/"
+_D_KEYRING="${PREFIX:-/usr/}/share/pacman/keyrings/"
 
 [[ "$(id -u)" == "0" ]] \
 || {
