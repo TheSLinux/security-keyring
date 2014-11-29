@@ -3,6 +3,11 @@
 This repository contains the PGP public key blocks of the core
 developers of TheSLinux.
 
+## Package for ArchLinux users
+
+See http://f.theslinux.org/theslinux/p/t/theslinux-keyring/ .
+See also http://theslinux.org/doc/buildsystem/repo_arch/.
+
 ## Installation on ArchLinux
 
 To install the keyring on ArchLinux system, please use `install.sh`
